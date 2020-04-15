@@ -1,0 +1,22 @@
+{
+  "name": "cci-status",
+  "version": "1.0.0",
+  "description": "A simple utility that gets the job status of the latest workflow for your current git branch",
+  "main": "./index.js",
+  "bin": {
+    "cci-status": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew8088/cci-status.git"
+  },
+  "author": "Andrew Burgess <andrew@burgess.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew8088/cci-status/issues"
+  },
+  "homepage": "https://github.com/andrew8088/cci-status#readme",
+  "dependencies": {
+    "ascii-table": "0.0.9"
+  }
+}
