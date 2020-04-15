@@ -2,7 +2,7 @@
 
 ## Installation:
 
-```
+```bash
 npm i -g cci-status
 ```
 
@@ -12,7 +12,7 @@ Also, set environment variable `CIRCLE_CI_TOKEN` with [your CircleCI API token](
 
 In a git repo (obviously, one connected to Circle):
 
-```
+```bash
 cci-status
 
 cci-status <remote-name> # default to 'origin'
